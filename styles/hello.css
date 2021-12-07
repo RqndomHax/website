@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+
+body {
+    font-family: 'Fruktur', cursive;
+    background-color: #0d1321;
+    font-size: 200%;
+    margin: 0;
+    overflow-x: hidden;
+    color: white;
+}
+
+.hello {
+    position: relative;
+    min-height: 600px;
+    padding-top: 2rem;
+    width: 100vw;
+    max-width: 100vw;
+    box-sizing: border-box;
+}
+
+.background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.background {
+    background-image: url("../assets/terraria.gif");
+    background-position: center center;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.26;
+}
+
+.logo {
+    position: relative;
+    top: 10%;
+    margin: auto;
+    margin-bottom: 10rem;
+    width: 144px;
+    height: 144px;
+    background: url("../assets/logo.png") center no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.hello-message {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 13rem;
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+
+.testimonials {
+    background-color: #242423;
+    justify-content: center;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 0 1rem 0;
+}
+
+.testimonial {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.profile-logo {
+    width: 96px;
+    height: 96px;
+    margin: 15px auto 0;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.testimonial-opinion {
+    position: relative;
+    color: white;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    width: 256px;
+    text-align: center;
+}
+
+.testimonial-author {
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}

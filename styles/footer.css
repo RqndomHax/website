@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+
+.footer {
+    overflow: hidden;
+    clear: both;
+}
+
+#github {
+    background-image: url("../assets/logo.png");
+}
+
+#discord {
+    background-image: url("../assets/logo.png");
+}
+
+#linkedin {
+    background-image: url("../assets/logo.png");
+}
