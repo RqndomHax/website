@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
 
-.testimonials {
+.testimonials-container {
     background-color: #242423;
+}
+
+.testimonials {
     justify-content: center;
     overflow: hidden;
     display: flex;

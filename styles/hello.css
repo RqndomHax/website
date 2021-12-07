@@ -62,3 +62,17 @@ body {
     margin-top: 3rem;
     margin-bottom: 13rem;
 }
+
+.title {
+    font-size: 3rem;
+    margin-left: 3rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.3;
+    transition: 200ms;
+}

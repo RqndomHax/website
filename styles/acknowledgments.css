@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+
+.acknowledgments {
+    justify-content: center;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 0 1rem 0;
+}
+
+.acknowledgment {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.acknowledgment-author {
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
